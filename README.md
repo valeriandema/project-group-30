@@ -25,7 +25,7 @@ assistant-bot-G30 json
 ## Встановлення з GitHub
 
 ```bash
-git clone https://github.com/LesDevLabs/project-group-30.git
+git clone git@github.com:valeriandema/project-group-30.git
 cd project-group-30
 pip install -r requirements.txt
 python main.py
