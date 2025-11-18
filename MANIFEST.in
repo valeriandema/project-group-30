@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include cli *.py
+recursive-include handlers *.py
+recursive-include models *.py
+recursive-include repositories *.py
+recursive-include search *.py
+recursive-include storage *.py
+recursive-include utils *.py

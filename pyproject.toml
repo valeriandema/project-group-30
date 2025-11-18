@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assistant-bot-G30"
+version = "0.8.6"
+description = "Консольний асистент-бот для управління контактами та нотатками з підтримкою тегів, пошуку та різних форматів збереження"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Valerian Demichev", email = "valerian.demichev@gmail.com"},
+    {name = "Koliaepov", email = "koliaepov@gmail.com"},
+    {name = "Lestyshchenko", email = "lestyshchenko@gmail.com"},
+    {name = "Sagepol", email = "sagepol@gmail.com"},
+    {name = "444ten", email = "444ten@gmail.com"},
+    {name = "Zarudenska", email = "3t.zarudenska@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "colorama",
+    "rich",
+    "prompt_toolkit",
+]
+
+[project.urls]
+Homepage = "https://github.com/LesDevLabs/project-group-30"
+Repository = "https://github.com/LesDevLabs/project-group-30"
+
+[project.scripts]
+assistant-bot-G30 = "main:main"

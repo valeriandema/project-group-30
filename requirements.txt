@@ -1,0 +1,4 @@
+#requirements for the project
+colorama
+rich
+prompt_toolkit
